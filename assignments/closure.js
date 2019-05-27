@@ -1,6 +1,29 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+function newSeason (){
+  let show = "Rick and Morty";
+  console.log(`${show} Seaon 4`);
+
+function seasonStart (){
+  let month = "November"
+  console.log(`${show} is coming back to Adult Swim in ${month}`)
+
+function seasonYear (){
+  let year = 2019
+  console.log(`${show} is coming back to Adult Swim in ${month} ${year}! `)
+}
+seasonYear();
+
+}
+
+seasonStart();
+
+}
+
+newSeason();
+
+
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
